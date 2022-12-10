@@ -4,6 +4,7 @@ import Greet from "./component/Greet";
 import Welcome from "./component/Welcome";
 import Hello from "./component/Hello";
 import Title from "./component/Title";
+import Myname from "./component/Myname";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Title name="FrontEnd Developer" />
       <Title name="solidity Developer" />
       <Title name="Mobile Devloper" />
+      <Myname/>
     </div>
   );
 }
