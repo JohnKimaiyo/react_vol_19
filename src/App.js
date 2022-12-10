@@ -5,6 +5,8 @@ import Welcome from "./component/Welcome";
 import Hello from "./component/Hello";
 import Title from "./component/Title";
 import Myname from "./component/Myname";
+import Mycount from "./component/Mycount";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <Title name="solidity Developer" />
       <Title name="Mobile Devloper" />
       <Myname/>
+      <Mycount/>
     </div>
   );
 }
