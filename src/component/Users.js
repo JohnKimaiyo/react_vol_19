@@ -1,6 +1,6 @@
-import useFetchData from "./useFetchData";
 
-export default function Users() {
+import useFetchData from "./useFetchData";
+function Users() {
   const { data } = useFetchData("https://api.github.com/users");
 
   return (
@@ -15,3 +15,5 @@ export default function Users() {
     </div>
   );
 }
+
+export default Users;
