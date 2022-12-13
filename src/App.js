@@ -10,6 +10,7 @@ import Form from "./component/Form";
 import Users from "./component/Users";
 import Event from "./component/Event";
 import Submit from "./component/Submit";
+import InputFocus from "./component/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Users />
       <Event />
       <Submit />
+      <InputFocus/>
     </div>
   );
 }
